@@ -16,6 +16,14 @@ a {
 .row {
     display: flex;
 }
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 0.5rem 0;
+}
 /* #endregion Common */
 
 /* #region Utilities */
@@ -51,6 +59,10 @@ a {
     width: calc((100% / 12) * 7);
 }
 
+.p_1 {
+    padding: 1rem;
+}
+
 /* #endregion Utilities */
 
 /* #region Body */
@@ -83,8 +95,8 @@ a {
 }
 
 .container_header {
-    width: 70%;
-    max-width: 1000px;
+    width: 50%;
+    max-width: 1300px;
     margin: auto;
     background-color: aquamarine;
 }
@@ -92,7 +104,7 @@ a {
 .title {
     font-size: 3rem;
     text-align: left;
-    margin-top: 2.5rem;
+    margin: 2.5rem 0;
 
 }
 
@@ -112,6 +124,46 @@ a {
 /* #endregion Header */
 
 /* #region Main */
+.container_main {
+    width: 45%;
+    max-width: 1000px;
+    margin: auto;
+    background-color: burlywood;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.card {
+border: 1px solid black;
+margin: 1rem;
+}
+
+.top_card {
+    border-bottom: 1px solid black;
+    padding: 0.5rem;
+}
+
+.free_trial {
+    background-color: blue;
+    color: white;
+    padding: 0.5rem 2rem;
+    line-height: 3rem;
+}
+
+.shop_now {
+    text-decoration: underline;
+}
+
+.footer_card {
+    padding: 1rem;
+}
+
+.fa-check {
+    color: blue;
+}
+
 /* #endregion Main */
 
 /* #region Footer */
