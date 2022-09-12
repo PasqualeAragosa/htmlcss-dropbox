@@ -59,6 +59,10 @@ li {
     width: calc((100% / 12) * 7);
 }
 
+.col-12 {
+    width: calc((100% / 12) * 12);
+}
+
 .p_1 {
     padding: 1rem;
 }
@@ -145,11 +149,22 @@ margin: 1rem;
     padding: 0.5rem;
 }
 
+.body_card {
+    position: relative;
+}
+
 .free_trial {
     background-color: blue;
     color: white;
     padding: 0.5rem 2rem;
     line-height: 3rem;
+}
+
+.position {
+    position: absolute;
+    padding: 0rem 2rem;
+    top: 1rem;
+    right: 2%;
 }
 
 .shop_now {
