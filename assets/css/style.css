@@ -128,6 +128,7 @@ li {
 /* #region Main */
 .bg_preview {
     background-color: var(--dr-light);
+    height: 63vh;
 }
 
 .preview {
@@ -226,14 +227,20 @@ margin: 1rem;
 }
 
 .square {
-    width: 50%;
-    height: 50%;
+    height: 341px;
+    width: 341px;
     background-color: red;
+    justify-content: center;
+    align-items: center;
 }
 
 .square img {
-    
-    
+    max-width: 50%;
+    max-height: 50%; 
+}
+
+.middle_square {
+
 }
 
 /* #endregion Main */
