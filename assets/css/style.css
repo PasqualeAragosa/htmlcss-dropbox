@@ -47,6 +47,10 @@ li {
     text-align: left;
 }
 
+.col-2 {
+    width: calc((100% / 12) * 2);
+}
+
 .col-4 {
     width: calc((100% / 12) * 4);
 }
@@ -57,6 +61,10 @@ li {
 
 .col-7 {
     width: calc((100% / 12) * 7);
+}
+
+.col-8 {
+    width: calc((100% / 12) * 8);
 }
 
 .col-12 {
@@ -107,9 +115,7 @@ li {
 
 .title {
     font-size: 3rem;
-    text-align: left;
     margin: 2.5rem 0;
-
 }
 
 .col-5 p {
@@ -178,6 +184,27 @@ margin: 1rem;
 .fa-check {
     color: blue;
 }
+
+.partner_box {
+    margin: 3rem 0;
+}
+
+.partner_btn {
+    padding: 0.5rem 1rem;
+}
+
+.show_more {
+    margin: 4rem 0;
+}
+
+.show_more li {
+    line-height: 4rem;
+}
+
+.show_more a {
+    text-decoration: underline;
+}
+
 
 /* #endregion Main */
 
