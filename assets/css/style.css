@@ -162,8 +162,8 @@ li {
     padding: 0.5rem;
 }
 
-.col-5 span {
-    font-size: 5rem;
+.col-5 i {
+    font-size: 3rem;
 }
 
 h2 {
@@ -308,6 +308,15 @@ margin: 1rem;
 .db_business span {
     background-color: var(--dr-white);
     padding: 0.5rem 1.5rem;
+}
+
+.faq {
+    padding: 2rem 0; 
+    justify-content: flex-end;
+}
+
+.faq i {
+    font-size: 1.5rem;
 }
 
 /* #endregion Main */
