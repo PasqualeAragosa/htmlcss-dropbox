@@ -226,8 +226,14 @@ margin: 1rem;
 }
 
 .square {
-    height: 120px;
-    width: 120px;
+    width: 50%;
+    height: 50%;
+    background-color: red;
+}
+
+.square img {
+    
+    
 }
 
 /* #endregion Main */
