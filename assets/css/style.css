@@ -132,12 +132,12 @@ li {
 
 .preview {
     width: 70%;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
 }
 
 .title {
-    font-size: 70px;
+    font-size: 75px;
     padding: 5rem 0 2.5rem 0;
     font-family: 'Roboto', sans-serif;
 }
@@ -159,6 +159,10 @@ li {
 h2 {
     font-size: 2rem;
     margin-top: 4rem;
+}
+
+.checkbox {
+    padding: 0 2rem 0 0;
 }
 
 .card {
