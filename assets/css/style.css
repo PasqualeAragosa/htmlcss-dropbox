@@ -10,7 +10,16 @@
     --dr-btn: #0061FF;
     --dr-light: #B4D0E7;
     --dr-white: #FFFFFF;
-
+    --dr-flo: #0093CE;
+    --dr-pla: #0D2481;
+    --dr-asu: #61082B;
+    --dr-des: #A2D39B;
+    --dr-hea: #B4D0E7;
+    --dr-wrd: #D5001F;
+    --dr-mdl: #F5F5F5;
+    --dr-top: #FF1C1C;
+    --dr-cle: #FFD830;
+    --dr-cle-brd: #D1E9CD;
 }
 
 body {
@@ -239,8 +248,66 @@ margin: 1rem;
     max-height: 50%; 
 }
 
-.middle_square {
+.des {
+    background-color: var(--dr-des);
+    border: 15px solid var(--dr-cle-brd);
+}
 
+.asu {
+    background-color: var(--dr-asu);
+}
+
+.flo {
+    background-color: var(--dr-flo);
+}
+
+.top {
+    background-color: var(--dr-top);
+}
+
+.mdl {
+    background-color: var(--dr-mdl);
+}
+
+.middle_square {
+    padding: 2rem;
+}
+
+.middle_square p {
+    padding: 5rem 0;
+}
+
+.wrd {
+    background-color: var(--dr-wrd);
+}
+
+.hea {
+    background-color: var(--dr-hea);
+}
+
+.pla {
+    background-color: var(--dr-pla);
+}
+
+.cle {
+    background-color: var(--dr-cle);
+}
+
+.db_business {
+    background-color: var(--dr-light);
+    justify-content: center;
+    align-items: center;
+}
+
+.db_business h2 {
+    color: var(--dr-asu);
+    padding: 4rem;
+    margin-bottom: 4rem;
+}
+
+.db_business span {
+    background-color: var(--dr-white);
+    padding: 0.5rem 1.5rem;
 }
 
 /* #endregion Main */
