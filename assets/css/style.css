@@ -32,6 +32,11 @@ body {
     margin: auto;
 }
 
+.container_footer {
+    width: 70%;
+    margin: auto;
+}
+
 img {
     max-width: 100%;
 }
@@ -76,6 +81,10 @@ li {
 
 .txt_left {
     text-align: left;
+}
+
+.col-1 {
+    width: calc((100% / 12) * 1);
 }
 
 .col-2 {
@@ -319,9 +328,24 @@ margin: 1rem;
 .faq i {
     font-size: 1.5rem;
 }
-
 /* #endregion Main */
 
 /* #region Footer */
+#site_footer {
+    background-color: var(--dr-black);
+    color: var(--dr-white);
+}
+
+#site_footer h3{
+    margin: 1.5rem 0;
+}
+
+#site_footer hr {
+    margin-top: 5rem;
+}
+
+.language {
+    color: white;
+}
 /* #endregion Footer */
 /* #endregion Body */
