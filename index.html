@@ -17,7 +17,7 @@
 </head>
 <body>
     <header id="site_header">
-        <nav class="menu d_flex ">
+        <nav class="menu d_flex txt_center">
             <div class="col-4 d_flex f_start">
                 <img class="logo" src="./assets/img/logo-small.png" alt="">
                 <a href="#">Perchè Dropbox</a>
@@ -31,7 +31,7 @@
                 <a href="#">Supporto</a>
                 <a href="#">Contatta l'ufficio vendite</a>
                 <a href="#">Accedi</a>
-                <a class="register" href="#">Inizia</a>
+                <a class="register" href="#"><span>Inizia</span></a>
             </div>
             <!-- /.col-4 -->
         </nav>
@@ -68,20 +68,23 @@
         </section>
         <!-- /.jumbotron -->
         <div class="container">
-            <h2 class="p_1">
-                Trova il piano business che fa per te
-            </h2>
-            <div class="row">
-                <div class="billing p_1">
-                    <input type="radio" name="fatturazione">
-                    <label class="checkbox" for="">Fatturazione mensile</label>
-                    <input type="radio" name="fatturazione">
-                    <label class="checkbox" for="">Fatturazione annuale</label>
+            <section class="search_business">
+                <h2 class="p_1">
+                    Trova il piano business che fa per te
+                </h2>
+                <div class="row">
+                    <div class="billing p_1">
+                        <input type="radio" name="fatturazione">
+                        <label class="checkbox" for="">Fatturazione mensile</label>
+                        <input type="radio" name="fatturazione">
+                        <label class="checkbox" for="">Fatturazione annuale</label>
+                    </div>
+                    <!-- /.billing -->
                 </div>
-                <!-- /.billing -->
-            </div>
-            <!-- /.row -->
-            <div class="row">
+                <!-- /.row -->
+            </section>
+            <!-- /.search_business -->
+            <section class="row">
                 <div class="col-4 d_flex">
                     <div class="card">
                         <div class="top_card txt_center">
@@ -233,7 +236,7 @@
                     <!-- /.card -->
                 </div>
                 <!-- /.col-4 -->
-            </div>
+            </section>
             <!-- /.row -->
             <div class="row">
                 <div class="col-12">
@@ -449,7 +452,7 @@
             <span>Inizia la tua prova gratuita</span>
         </section>
         <!-- /.db_business -->
-        <div class="container faq p_1">
+        <section class="container faq p_1">
             <h2>Domande frequenti</h2>
             <hr>
             <div class="answer d_flex s_between">
@@ -467,12 +470,12 @@
                 <i class="fa-sharp fa-solid fa-chevron-down"></i>
             </div>
             <hr>
-        </div>
+        </section>
         <!-- /.container -->
     </main>
     <!-- /#site_main -->
     <div id="site_footer">
-        <div class="container_footer p_1 d_flex s_between">
+        <section class="container_footer p_1 d_flex s_between">
             <div class="dropbox p_1">
                 <h3>Dropbox</h3>
                 <ul>
@@ -529,11 +532,11 @@
                 </ul>
             </div>
             <!-- /.dropbox -->
-        </div>
+        </section>
         <!-- /.container_footer -->
-        <div class="container_footer p_1">
+        <section class="container_footer p_1">
             <div class="language p_1"><i class="fa-sharp fa-solid fa-globe"></i> Italiano <i class="fa-duotone fa-triangle"></i></div>
-        </div>
+        </section>
     </div>
     <!-- /#site_footer -->
 </body>

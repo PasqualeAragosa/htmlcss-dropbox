@@ -30,6 +30,8 @@ body {
     width: 70%;
     max-width: 1100px;
     margin: auto;
+    position: relative;
+    bottom: -5rem;
 }
 
 .container {
@@ -45,6 +47,10 @@ body {
 
 .row {
     display: flex;
+}
+
+h2 {
+    font-size: 2rem;
 }
 
 img {
@@ -130,32 +136,33 @@ li {
 }
 
 .logo {
-    padding: 1.25rem;
+    padding: 1rem;
+    margin: 0.5rem; 
 }
 
-.menu a:not(.register) {
+.menu a {
     color: grey;
-    padding: 0.25rem;
-    margin: 1rem 0.75rem;
+    padding: 1.5rem;
 }
 
-.register {
+.menu a:hover {
+    border-bottom: 5px solid var(--dr-btn);
+}
+
+.menu span {
     background-color: var(--dr-btn);
     color: white;
-    text-decoration: none;
-    padding: 0.25rem 1.5rem;
-    margin: 1rem;
+    padding: 0.25rem 0.5rem;
 }
 /* #endregion Header */
 
 /* #region Main */
 .jumbotron {
     background-color: var(--dr-light);
-    height: 63vh;
 }
 .title {
     font-size: 75px;
-    padding: 5rem 0 2.5rem 0;
+    padding: 0rem 0 2.5rem 0;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -174,9 +181,8 @@ li {
     color: var(--dr-black);
 }
 
-h2 {
-    font-size: 2rem;
-    margin-top: 4rem;
+.search_business {
+    margin-top: 8rem;
 }
 
 .checkbox {
@@ -318,7 +324,7 @@ margin: 1rem;
 .db_business h2 {
     color: var(--dr-asu);
     padding: 4rem;
-    margin-bottom: 4rem;
+    margin: 4rem;
 }
 
 .db_business span {
