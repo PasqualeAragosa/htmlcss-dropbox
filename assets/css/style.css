@@ -198,6 +198,14 @@ margin: 1rem;
     position: relative;
 }
 
+.body_card .user {
+    padding-right: 0.5rem;
+}
+
+.body_card .text {
+    font-size: 18px;
+}
+
 .free_trial {
     background-color: blue;
     color: white;
@@ -255,6 +263,7 @@ margin: 1rem;
 .square img {
     max-width: 50%;
     max-height: 50%; 
+    filter: invert(1);
 }
 
 .des {
@@ -320,9 +329,15 @@ margin: 1rem;
 }
 
 .faq {
+    padding-bottom: 6rem;
+}
+
+.faq h2 {
     padding: 2rem 0; 
-    justify-content: flex-end;
-    border: 2px solid black;
+}
+
+.answer {
+    padding: 2rem 0;
 }
 
 .faq i {
